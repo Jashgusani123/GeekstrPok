@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekstarPok</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Jersey+20&family=Poetsen+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <h1>GeekstarPok</h1>
+        </header>
+        <main>
+            <!-- <form action=""> -->
+            <div class="form">
+                <div class="selecters">
+                    <select name="type" id="selecter">
+                        <option value="type">Type</option>
+                    </select>
+                    <button id="Filter-btn">Filter</button>
+                    <button id="resetbtn" onclick="loded()">Reset</button>
+                </div>
+                <br>
+                <input type="text" placeholder="Enter Pokemon Name" id="searchInput" onkeypress="searchIt()">
+            </div>
+            <!-- </form> -->
+            <div id="Con">
+                <div id="pok"></div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

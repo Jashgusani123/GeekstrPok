@@ -1,0 +1,114 @@
+
+
+
+h1 {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+#pok{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: max-content;
+    gap: 1.3%;
+}
+#selecter{
+    background-color: burlywood;
+    color: black;
+    font-size: large;
+    border-radius: 10px;
+}
+#searchInput{
+    width: 28%;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+button{
+    background-color: wheat;
+    font-size: large;
+    border-radius: 10px;
+}
+.selecters{
+    display: flex;
+}
+.form , h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#Con{
+    margin-top: 1%;
+}
+#card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.grass{
+    background-color: rgb(56, 174, 56);
+}
+
+.fire{
+    background-color: rgb(237, 95, 44);
+}
+.bug{
+    background-color: rgb(240, 240, 79);
+}
+.normal{
+    background-color: darkkhaki;
+}
+.poison{
+    background-color:darkturquoise;
+}
+.electric{
+    background-color: blue;
+}
+.ground{
+    background-color:burlywood;
+}
+.fairy{
+    background-color:coral;
+}
+.fighting{
+    background-color: brown;
+}
+.psychic{
+    background-color: blueviolet;
+}
+.rock{
+    background-color: rgb(231, 161, 161);
+}
+.ghost{
+    background-color:rgb(165, 121, 160);
+}
+.ice{
+    background-color: rgb(143, 150, 192);
+}
+.dragon{
+    background-color:darksalmon;
+}
+.water{
+    
+    background-color: rgb(61, 84, 231);
+}
+#card:hover{
+    transform: scale3d(1.1,1.1,1.1);
+}
+@media screen and  (max-width:700px){
+    #pok{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #Con{
+        margin-top: 10%;
+    }
+}
